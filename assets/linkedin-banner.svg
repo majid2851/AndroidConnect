@@ -1,0 +1,82 @@
+<svg width="1584" height="396" viewBox="0 0 1584 396" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1584" y2="396" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0D47A1"/>
+      <stop offset="1" stop-color="#5E35B1"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="980" y1="40" x2="1450" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#80D8FF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#69F0AE" stop-opacity="0.30"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1584" height="396" rx="24" fill="url(#bg)"/>
+  <rect width="1584" height="396" rx="24" fill="url(#accent)"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.18" stroke="#FFFFFF" stroke-width="1">
+    <path d="M0 72H1584"/>
+    <path d="M0 144H1584"/>
+    <path d="M0 216H1584"/>
+    <path d="M0 288H1584"/>
+    <path d="M176 0V396"/>
+    <path d="M352 0V396"/>
+    <path d="M528 0V396"/>
+    <path d="M704 0V396"/>
+    <path d="M880 0V396"/>
+    <path d="M1056 0V396"/>
+    <path d="M1232 0V396"/>
+    <path d="M1408 0V396"/>
+  </g>
+
+  <!-- Decorative circles -->
+  <circle cx="1370" cy="70" r="130" fill="#FFFFFF" fill-opacity="0.08"/>
+  <circle cx="1435" cy="345" r="160" fill="#FFFFFF" fill-opacity="0.06"/>
+
+  <!-- Headline -->
+  <text x="82" y="148" fill="#FFFFFF" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="60" font-weight="700">
+    Android Connectivity Observer
+  </text>
+  <text x="84" y="206" fill="#DCE7FF" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="30" font-weight="500">
+    WiFi " Cellular " VPN " Offline " Jetpack Compose
+  </text>
+  <text x="84" y="255" fill="#C3D6FF" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="24" font-weight="400">
+    Simple API: connectivity(context).observe()
+  </text>
+
+  <!-- Android/Kotlin accents -->
+  <rect x="84" y="292" width="130" height="42" rx="10" fill="#00C853" fill-opacity="0.20" stroke="#81F7B7" stroke-width="1.5"/>
+  <text x="113" y="320" fill="#DAFFE8" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="20" font-weight="600">Android</text>
+
+  <rect x="230" y="292" width="110" height="42" rx="10" fill="#7C4DFF" fill-opacity="0.24" stroke="#C6B2FF" stroke-width="1.5"/>
+  <text x="262" y="320" fill="#EEE7FF" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="20" font-weight="600">Kotlin</text>
+
+  <!-- Icon row -->
+  <g transform="translate(1035,118)" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- WiFi -->
+    <path d="M0 62C26 36 66 36 92 62"/>
+    <path d="M12 74C30 56 62 56 80 74"/>
+    <path d="M26 88C38 76 54 76 66 88"/>
+    <circle cx="46" cy="100" r="5" fill="#FFFFFF" stroke="none"/>
+
+    <!-- Cellular bars -->
+    <g transform="translate(146,18)">
+      <line x1="0" y1="82" x2="0" y2="56"/>
+      <line x1="16" y1="82" x2="16" y2="45"/>
+      <line x1="32" y1="82" x2="32" y2="32"/>
+      <line x1="48" y1="82" x2="48" y2="18"/>
+    </g>
+
+    <!-- VPN shield -->
+    <g transform="translate(250,8)">
+      <path d="M46 14L84 28V60C84 84 68 103 46 112C24 103 8 84 8 60V28L46 14Z"/>
+      <path d="M30 62L42 74L63 52"/>
+    </g>
+
+    <!-- Offline cloud slash -->
+    <g transform="translate(394,14)">
+      <path d="M17 73C7 73 0 65 0 55C0 45 7 37 17 37C20 26 30 18 41 18C54 18 65 28 65 41C74 42 82 49 82 59C82 68 75 75 66 75H17Z"/>
+      <line x1="-5" y1="85" x2="89" y2="0"/>
+    </g>
+  </g>
+</svg>
