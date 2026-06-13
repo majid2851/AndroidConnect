@@ -10,3 +10,8 @@
 local.properties
 .kotlin/
 **/build/
+assets/node_modules/
+assets/package.json
+assets/package-lock.json
+assets/render-banner.js
+assets/banner.svg
